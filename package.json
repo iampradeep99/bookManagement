@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-library-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chai": "^5.1.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "ioredis": "^5.4.2",
+    "joi": "^17.13.3",
+    "mocha": "^11.0.1",
+    "mongoose": "^8.9.2",
+    "morgan": "~1.9.1",
+    "nodemon": "^3.1.9",
+    "pug": "2.0.0-beta11",
+    "sinon": "^19.0.2",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
